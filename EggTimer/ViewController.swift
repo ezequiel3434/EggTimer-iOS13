@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var mainTitleLabel: UILabel!
     @IBOutlet weak var progressBar: UIProgressView!
     var counter = 0
-    let eggTimer = [ "Soft": 1, "Medium": 7, "Hard": 12 ]
+    let eggTimer = [ "Soft": 5, "Medium": 7, "Hard": 12 ]
     var timer = Timer()
     var time = 0
     
